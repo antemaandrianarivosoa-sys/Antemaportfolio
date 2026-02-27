@@ -1,1 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cv-container {
+    width: 800px;
+    background: white;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 35%;
+    background-color: #6e6e6e; /* Gray background */
+    color: white;
+    padding: 0;
+}
+
+.profile-img {
+    background-color: #1a428a; /* Dark Blue top */
+    padding: 30px;
+    text-align: center;
+}
+
+.profile-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sidebar-section, .contact-info {
+    padding: 20px;
+}
+
+h3 {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+/* Main Content Styling */
+.main-content {
+    width: 65%;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 0;
+    color: #333;
+}
+
+.section-title {
+    color: #1a428a;
+    border-bottom: 2px solid #1a428a;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.job {
+    margin-top: 15px;
+}
+
+.date {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+}
 
